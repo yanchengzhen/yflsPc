@@ -1,0 +1,33 @@
+/*banner样式设置*/
+.banner{
+  width: 100%;
+  height: 400px;
+  background: url("../image/product_banner.png") no-repeat center center;
+}
+.product_main{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+}
+.product_list h2{
+  font-size: 20px;
+  color: #333;
+  font-weight: normal;
+  padding-left: 50px;
+  position: relative;
+  line-height: 30px;
+}
+.product_list h2 em{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background:url("../image/icon_jin.png") no-repeat 0;
+}
+.product_list p{
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+  line-height: 30px;
+}
