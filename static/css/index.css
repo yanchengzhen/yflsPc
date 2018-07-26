@@ -1,0 +1,11 @@
+.indexSwiperBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+    top: 0;
+}
+.indexSwiperImg{
+    width: 100%;
+    height: 100%;
+}
