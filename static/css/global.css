@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family:Brooklyn;
+}
+a:focus {
+    outline: none;
+}
+button,input,textarea{
+    outline: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+}
+input,textarea{
+    border:1px solid #d2d2d2;
+}
+input[disabled]{color:#333;opacity:1;background: #f0f5fd;}
+input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+body{
+    margin: 0;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+.main:after{
+    content: "";
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+/*字体进入效果*/
+.in100{
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s;
+    transition-duration: .8s;
+}
+.in200{
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+    transition-duration: .8s;
+}
+.in300{
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+    transition-duration: .8s;
+}
+.in400{
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s;
+    transition-duration:.8s;
+}
+.in500{
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+    transition-duration:.8s;
+}
+.in600{
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s;
+    transition-duration: .8s;
+}
+.in700{
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.7s;
+    transition-duration: .8s;
+}
+.in800{
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0.8s;
+    transition-duration: .8s;
+}
+.float_clear:after{
+    content: "";
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
+.border-all{
+    border: 1px solid #888;
+}
+.border-t{
+    border-top: 1px solid #888;
+}
+.border-r{
+    border-right: 1px solid #888;
+}
+.border-b{
+    border-bottom: 1px solid #888;
+}
+.border-l{
+    border-left: 1px solid #888;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+a:hover{
+    color: #2D72FF;
+    text-decoration: none;
+}
+
+/*公共头部*/
+.headerBox{
+    height: 90px;
+    background: #fff;
+}
