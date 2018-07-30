@@ -222,11 +222,10 @@ a:hover{
 }
 .swiper-pagination-switch {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 10px;
-    background: #999;
-    box-shadow: 0px 1px 2px #555 inset;
+    background: rgba(255,255,255,.5);
     margin: 0 15px;
     cursor: pointer;
 }
