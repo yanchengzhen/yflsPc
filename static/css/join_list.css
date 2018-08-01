@@ -1,0 +1,97 @@
+ul,li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+tr,td,table{
+  border:0;
+  padding: 0;
+  /*border-collapse:collapse;*/
+  border-spacing:10px;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.join_main{
+  width: 100%;
+  margin-bottom: 100px;
+  padding-top: 90px;
+}
+.banner{
+  height: 400px;
+  background: url("../image/join_banner1.png") no-repeat center center;
+}
+.join_listBox{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+.join_title{
+  text-align: center;
+}
+.join_title a{
+  display: inline-block;
+  width: 302px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 19px;
+  color: #000;
+  border: 1px solid #000;
+}
+.join_title a.active{
+  background-color:#0e61b5;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.title1{
+  margin-right: 266px;
+}
+.join_listMain{
+  width: 1200px;
+  margin-top: 70px;
+  font-size: 18px;
+  color: #333;
+}
+
+.join_listMain tr td:nth-child(1){
+  width: 220px;
+  text-align: center;
+}
+.join_listMain tr td:nth-child(2){
+  width: 480px;
+  border-left: 10px;
+  border-right: 10px;
+}
+
+.join_listMain tr td:nth-child(3){
+  width: 480px;
+}
+.join_listTitle  td{
+  text-align: center;
+  background-color: #0f61b5;
+  color: #fff;
+  height: 45px;
+}
+
+.join_listMain td{
+  padding: 20px 15px;
+}
+.join_listTitle td{
+  padding: 0;
+}
+.join_listMain p{
+  line-height: 30px;
+}
+table tr:nth-child(3) td{
+  background-color: #f2f2f2;
+}
+.mailbox{
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+  background-color: #f2f2f2;
+}

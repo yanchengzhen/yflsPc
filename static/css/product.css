@@ -5,8 +5,8 @@
   background: url("../image/product_banner.png") no-repeat center center;
 }
 .product_main{
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 1200px;
+  margin: 0 auto;
   margin-top: 40px;
 }
 .product_list h2{

@@ -162,13 +162,16 @@ a:hover{
     background-color: #0e61b5;
     bottom: 26px;
     opacity: 0;
+    filter:alpha(opacity=0);
     transition: all 0.3s;
 }
 .headerItem:hover .headerBorder{
     opacity: 1;
+    filter:alpha(opacity=100);
 }
 .headerOn .headerBorder{
     opacity: 1;
+    filter:alpha(opacity=100);
 }
 .headerCategoriesBox{
     position: absolute;
@@ -189,10 +192,12 @@ a:hover{
     0% {
         top: 60px;
         opacity: 0.5;
+        filter:alpha(opacity=50);
     }
     100% {
         top: 75px;
         opacity: 1;
+        filter:alpha(opacity=100);
     }
 }
 .headerCategoriesItem{
@@ -231,4 +236,22 @@ a:hover{
 }
 .swiper-active-switch{
     background-color: #fff;
+}
+/*公共底部*/
+.footer{
+    height: 70px;
+    background-color: #404040;
+}
+.footer_main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+.footer_main p{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
 }
