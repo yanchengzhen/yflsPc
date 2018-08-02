@@ -1,0 +1,91 @@
+.newsBanner{
+    width: 100%;
+    padding-top: 90px;
+    height: 490px;
+}
+.newsBanner img{
+    width: 100%;
+    height: 400px;
+}
+
+.newListTitle{
+    width: 345px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.newsListTitleBorder{
+    width: 200px;
+    height: 1px;
+    background-color: #999999;
+    margin: 0 auto;
+}
+.newsListTitleItem{
+    width: 115px;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+.newsListTitleItem.active{
+    color: #0e61b5;
+}
+.newsListContent{
+    width: 1200px;
+    margin: 0 auto;
+    display: none;
+}
+.newsListActive{
+    display: block;
+}
+.newsListItem{
+    margin-top: 50px;
+}
+.newsListItemImg{
+    width: 320px;
+    height: 200px;
+}
+.newsListItemImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.newsListItemRightBox{
+    width: 880px;
+    height: 200px;
+    padding-left: 40px;
+    overflow: hidden;
+}
+.newsListItemTitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    transition: all .3s;
+}
+.newsListItemDes{
+    font-size: 16px;
+    line-height: 26px;
+    height: 80px;
+    overflow: hidden;
+}
+.newsListItemDate{
+    font-size: 16px;
+    margin-top: 45px;
+}
+.newsListItemBorder{
+    margin-top: 50px;
+    width: 320px;
+    height: 2px;
+    background-color: #999999;
+    transition: all .3s;
+}
+.newsListItem:hover .newsListItemBorder{
+    width: 100%;
+}
+.newsListItem:hover .newsListItemTitle{
+    color: #2D72FF;
+}

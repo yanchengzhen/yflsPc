@@ -1,0 +1,22 @@
+.news_main{
+  width: 1200px;
+  margin: 0 auto;
+}
+.banner{
+  height: 400px;
+  background: url("../image/the_mainBanner.png") no-repeat center center;
+}
+.news_title{
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  margin-top: 45px;
+  color: #333;
+}
+.news_time{
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  margin-top: 14px;
+}
