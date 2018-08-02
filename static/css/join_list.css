@@ -6,7 +6,6 @@ ul,li{
 tr,td,table{
   border:0;
   padding: 0;
-  /*border-collapse:collapse;*/
   border-spacing:10px;
 }
 p{
@@ -68,7 +67,7 @@ p{
 .join_listMain tr td:nth-child(3){
   width: 480px;
 }
-.join_listTitle  td{
+.join_listMain .join_listTitle  td{
   text-align: center;
   background-color: #0f61b5;
   color: #fff;
@@ -84,7 +83,7 @@ p{
 .join_listMain p{
   line-height: 30px;
 }
-table tr:nth-child(3) td{
+table tr:nth-child(odd) td{
   background-color: #f2f2f2;
 }
 .mailbox{
